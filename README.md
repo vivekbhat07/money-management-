@@ -50,7 +50,3 @@
 
     <h2>📜 License</h2>
     <p>This project is licensed under the <strong>MIT License</strong>.</p>
-</div>
-
-</body>
-</html>
