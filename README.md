@@ -1,4 +1,4 @@
-Money Management App
+<h1>Money Management App</h1>
 A simple and efficient app to track your expenditures and manage your finances.
 
 📌 Features
