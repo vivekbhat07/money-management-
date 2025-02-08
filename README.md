@@ -12,41 +12,36 @@
 
 <h2>🚀 Installation</h2>
 <p>Clone the repository:</p>
-<pre><code>git clone https://github.com/your-username/money-management-app.git</code></pre>
+<pre><code>git clone https://github.com/vivekbhat07/money-management-app.git</code></pre>
 
 <p>Navigate to the project folder:</p>
 <pre><code>cd money-management-app</code></pre>
 
-<p>Install dependencies:</p>
+<p>Install dependencies: for front end</p>
 <pre><code>
-npm install  # For React (if frontend is React)
-pip install -r requirements.txt  # For Python (if backend is Python)
+cd forntend
+npm install  # For React (frontend is React)
+</code></pre>
+
+<p>Install dependencies: for front end</p>
+<pre><code>
+cd back-end
+npm install  # For node 
 </code></pre>
 
 <p>Run the app:</p>
 <pre><code>
-npm start  # For frontend  
-python app.py  # For backend  
+npm run dev  # For frontend  
+nodemon index.js  # For backend  
 </code></pre>
 
 <h2>🛠️ Tech Stack</h2>
 <ul>
   <li><strong>Frontend:</strong> React / HTML, CSS, JavaScript</li>
-  <li><strong>Backend:</strong> Node.js / Python / Firebase</li>
-  <li><strong>Database:</strong> MongoDB / MySQL / SQLite</li>
+  <li><strong>Backend:</strong> Node.js / javascirpt </li>
+  <li><strong>Database:</strong> MongoDB /</li>
 </ul>
 
-<h2>📷 Screenshots</h2>
-<p>(Add some screenshots here to showcase your app UI.)</p>
 
-<h2>👨‍💻 Contributing</h2>
-<ol>
-  <li>Fork the repository</li>
-  <li>Create a new branch (<code>feature-branch</code>)</li>
-  <li>Make your changes and commit (<code>git commit -m "Added new feature"</code>)</li>
-  <li>Push to the branch (<code>git push origin feature-branch</code>)</li>
-  <li>Open a Pull Request</li>
-</ol>
 
-<h2>📜 License</h2>
-<p>This project is licensed under the MIT License.</p>
+
