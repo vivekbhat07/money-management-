@@ -1,0 +1,18 @@
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-contents{
+    background-color: #bab5b5;
+    color: black;
+    /* width: fit-content;
+    height: fit-content; */
+    padding: 20px;
+}
+
+.show-main{
+    background-color: red !important;
+}
+.show-container h1{
+    color: black;
+}

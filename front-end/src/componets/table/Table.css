@@ -1,0 +1,142 @@
+.table-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color: #070707;
+    max-height: 300px; /* Adjust the height as needed */
+    overflow-y: scroll; /* Enables vertical scrolling */
+    border: 1px solid #ddd; /* Optional: Adds a border around the container */
+  }
+
+  .type{
+    color: #070707;
+    width: 200px;
+    margin: 5px;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ecd8d8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Space between grid items */
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out; /* Fade-in effect on render */
+  }
+  
+
+  
+
+  
+  /* Keyframes for rendering animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .box {
+    height: fit-content; /* Height of each box */
+    border-radius: 15px;
+    padding: 20px;
+    background-color: lightcoral;
+    color: black;
+    animation: fadeIn 1s ease-in-out; /* Fade-in effect when box renders */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Initial subtle box shadow */
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Slight scale effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Increase box shadow on hover */
+  }
+  
+  /* Keyframes for rendering animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Slight move from below */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+.box p{
+  font-size: 16px;
+} 
+ .heading {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff7eb3, #ff758c, #ffa756, #ffc94d);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 4s infinite ease-in-out;
+    text-transform: uppercase;
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+  table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-spacing: 0;
+  }
+
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #070707;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  .categories{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  .type:hover{
+    animation: bounce 2s infinite;
+  }
+    
