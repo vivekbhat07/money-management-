@@ -1,12 +1,14 @@
 <h1>Money Management App</h1>
 A simple and efficient app to track your expenditures and manage your finances.
 
-📌 Features
-Track daily, weekly, and monthly expenses
+ <h2>📌Features<h2>
+<ul>
+  <li>Track daily, weekly, and monthly expenses</li>
 Categorize expenditures (Food, Transport, Bills, etc.)
 Visualize spending with charts and reports
 Set budget limits and receive alerts
 Secure and easy-to-use interface
+  </ul>
 🚀 Installation
 Clone the repository:
 sh
