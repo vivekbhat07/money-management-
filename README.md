@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Money Management App - README</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
-        h1, h2, h3 { color: #2c3e50; }
-        code { background: #f4f4f4; padding: 5px; border-radius: 5px; }
-        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
-        .container { max-width: 800px; margin: auto; }
-    </style>
-</head>
-<body>
 
-<div class="container">
+
     <h1>💰 Money Management App</h1>
     <p><em>A simple and efficient Vue/React app to track your expenditures and manage your finances.</em></p>
 
